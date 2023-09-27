@@ -1,3 +1,5 @@
+### From Git to Github command ###
+
 # open git bash
 $ cd [TARGET_DIRECTORY]
 
@@ -31,3 +33,9 @@ $ git remote set-url origin  git@github.com:USERNAME/REPO_NAME.git
 
 # finally, git push the changed file(s)
 $ git push origin BRANCH_NAME
+
+
+# be careful, if git shows: 
+# "Another git process seems to be running in this repository"
+$ rm -f .git/index.lock
+
