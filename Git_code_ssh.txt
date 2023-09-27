@@ -1,0 +1,24 @@
+# open git bash
+$ cd [TARGET_DIRECTORY]
+
+# check the git status
+$ git status
+
+# pull the latest update
+$ git pull
+
+# add the changed file
+$ git add .
+$ git status
+
+# stage and commit comments
+$ git commit -m "COMMENTS"
+
+# check the remote connection
+$ git remote -v
+
+# if the ssh connect is forward to the wrong account/username, use
+$ git remote set-url origin  git@github.com:USERNAME/REPO_NAME.git
+
+# finally, git push the changed file(s)
+$ git push origin BRANCH_NAME
