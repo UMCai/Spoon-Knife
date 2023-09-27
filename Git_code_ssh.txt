@@ -6,8 +6,8 @@ $ cd [TARGET_DIRECTORY]
 # initialise the directory if it is NOT registered
 $ git init
 
-# git clone the forked repo from github
-$ git clone REPO_HTTPS
+# git clone the forked repo from github, remember it should be ssh link (if you set ssh)
+$ git clone REPO_SSH
 
 # check the git status
 $ git status
