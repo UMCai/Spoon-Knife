@@ -1,8 +1,17 @@
 # open git bash
 $ cd [TARGET_DIRECTORY]
 
+# initialise the directory if it is NOT registered
+$ git init
+
+# git clone the forked repo from github
+$ git clone REPO_HTTPS
+
 # check the git status
 $ git status
+
+# check all the branch
+$ git branch
 
 # pull the latest update
 $ git pull
@@ -17,7 +26,7 @@ $ git commit -m "COMMENTS"
 # check the remote connection
 $ git remote -v
 
-# if the ssh connect is forward to the wrong account/username, use
+# if the ssh connect is forward to the wrong account/username
 $ git remote set-url origin  git@github.com:USERNAME/REPO_NAME.git
 
 # finally, git push the changed file(s)
