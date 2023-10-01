@@ -1,0 +1,7 @@
+# open cmd
+
+# cd to the location where store the .tar file
+$ tar -xvzf FILENAME.tar(.gz)
+
+# If you want to extract the contents of the archive to a specific directory
+$ tar -xvzf FILENAME.tar(.gz) -C c:\path\to\directory
