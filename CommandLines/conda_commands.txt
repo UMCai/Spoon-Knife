@@ -22,8 +22,11 @@ $ echo ". ${PWD}/conda.sh" >> ~/.bashrc    # (optional) if USERNAME does not hav
 # close git bash and reopen
 $ conda activate 
 
-# to create a conda list into requirement.txt
-$ conda list -e > requirements.txt
+# READ: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#saving-environment-variables
+# to create a conda list into spec-file.txt
+$ conda list --explicit > spec-file.txt
 
-# to create a new env by using requirements.txt
-$ conda create --name <env_name> --file requirements.txt
+# to create a new env by using spec-file.txt
+$ conda create --name myenv --file spec-file.txt
+# or install into an existing environment
+$ conda install --name myenv --file spec-file.txt
