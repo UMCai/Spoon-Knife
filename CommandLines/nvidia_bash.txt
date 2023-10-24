@@ -1,4 +1,0 @@
-# to get real-time (every second) insight on used resources,
-$ nvidia-smi -l 1 
-
-

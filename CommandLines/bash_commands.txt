@@ -1,0 +1,12 @@
+# to get real-time (every second) insight on used resources,
+$ nvidia-smi -l 1 
+
+# to check details of the file
+$ ls -lh FILE_NAME
+
+# to check the file in bash by using vim
+# vim FILE_NAME
+
+# to quit the vim
+# press ESC and type ":q"
+
