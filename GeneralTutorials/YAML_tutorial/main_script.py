@@ -1,3 +1,10 @@
+###################
+# This is the main script without using YAML to config
+# as you can see this can be run directly in debug mode
+# but we can find that there are certain config that we would like to tune/change
+# therefore, without changing the whole script, we need to find a clever way to manage the config
+
+
 #mport important packages
 import pandas as pd
 import numpy as np
