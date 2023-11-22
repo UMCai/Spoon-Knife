@@ -10,5 +10,6 @@ $ ls -lh FILE_NAME
 # to quit the vim
 # press ESC and type ":q"
 
+
 # to check more about vim
 # https://web.stanford.edu/class/cs107/resources/vim#:~:text=vim%20has%20two%20%22modes%22%3A,and%20edit%20text%20in%20bulk.
