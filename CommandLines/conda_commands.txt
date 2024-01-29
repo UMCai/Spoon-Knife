@@ -1,3 +1,7 @@
+# to install conda in linux https://docs.conda.io/projects/miniconda/en/latest/
+
+
+
 # for creating a conda envs
 $ conda create -n NAME python=3.11
 
