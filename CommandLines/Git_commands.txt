@@ -59,5 +59,6 @@ $ git remote add origin git@github.com:USERNAME/REPO_NAME.git
 $ git push -u origin main
 
 
-
+# change start up directory 
+echo 'cd /c/Users' >> ~/.bashrc
 
