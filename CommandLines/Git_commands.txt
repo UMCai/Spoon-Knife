@@ -62,3 +62,5 @@ $ git push -u origin main
 # change start up directory 
 echo 'cd /c/Users' >> ~/.bashrc
 
+
+
