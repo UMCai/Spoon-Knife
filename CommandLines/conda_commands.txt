@@ -1,7 +1,10 @@
 # to install conda in linux https://docs.conda.io/projects/miniconda/en/latest/
 
+# to update conda version 
+$ conda update -n base -c conda-forge conda
 
 
+##### basic conda commands
 # for creating a conda envs
 $ conda create -n NAME python=3.11
 
@@ -16,6 +19,17 @@ $ conda env list
 # check the package inside a env
 $ conda activate NAME
 $ conda list
+
+##### important for env dependency management
+# to save the environment
+$ conda env export > environment.yml
+
+# to update the environment
+$ conda env update --file environment.yml --prune
+
+# to get the environment
+$ conda env create -f environment.yml
+PS: The first line of the yml file sets the new environment's name.
 
 
 # to use conda in git bash (windows)
