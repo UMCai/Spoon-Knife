@@ -4,6 +4,10 @@ $ nvidia-smi -l 1
 # to check details of the file
 $ ls -lh FILE_NAME
 
+# to delete the whole dirctory
+$ rm -rf DIR_NAME
+
+
 # to check the file in bash by using vim
 # vim FILE_NAME
 
@@ -13,3 +17,8 @@ $ ls -lh FILE_NAME
 
 # to check more about vim
 # https://web.stanford.edu/class/cs107/resources/vim#:~:text=vim%20has%20two%20%22modes%22%3A,and%20edit%20text%20in%20bulk.
+
+
+
+# for zsh and oh my zsh
+check link: https://phoenixnap.com/kb/install-zsh-ubuntu
