@@ -22,3 +22,4 @@ $ rm -rf DIR_NAME
 
 # for zsh and oh my zsh
 check link: https://phoenixnap.com/kb/install-zsh-ubuntu
+
