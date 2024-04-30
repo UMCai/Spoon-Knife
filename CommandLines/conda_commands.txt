@@ -1,8 +1,10 @@
 # to install conda in linux https://docs.conda.io/projects/miniconda/en/latest/
 
+# to self check environment health
+$ conda doctor
+
 # to update conda version 
 $ conda update -n base -c conda-forge conda
-
 
 ##### basic conda commands
 # for creating a conda envs
