@@ -2,7 +2,7 @@
 
 ## learning track
 1. [Lightning in 15 minutes](https://lightning.ai/docs/pytorch/stable/starter/introduction.html#)
-2. Basic skills
+2. [Basic skills](https://lightning.ai/docs/pytorch/stable/levels/core_skills.html)
     * Basic L1 - L2
         * L.Trainer(model, trainloader, validloader) control num of epoch, and can overwrite max batch size
         * L.LightningModule is super useful
@@ -17,7 +17,10 @@
         * the whole logs in lightning can be checked by tenosrboard
     * Basic L6 checkpoint in Lightning is fully compatible with pytorch
         * torch.load(CKPT_PATH) or .load_from_checkpoint(CKPT_PATH)
-3. Tutorial
+3. [Intermediate skills](https://lightning.ai/docs/pytorch/stable/levels/intermediate.html) 
+    * L8 __super__ usefull, check multitimes to understand how to modulize data and models
+
+4. [Tutorials] (https://lightning.ai/docs/pytorch/stable/tutorials.html)
     * tutorial 1 -- useless, pass
     * tutorial 2 -- useful:
         * how to customize activation function
@@ -29,6 +32,10 @@
         * visualization of augmented 2D images
         * best tutorial for checking famous CNN models with torch lightning
         * clever idea to placehold models in lightning framework
+
+## Docs info extract
+1. [DataModule](https://lightning.ai/docs/pytorch/stable/data/datamodule.html) -- provide a nice way to prepare the data
+2. 
 
 ## Reference
 
