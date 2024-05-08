@@ -37,6 +37,14 @@
 1. [DataModule](https://lightning.ai/docs/pytorch/stable/data/datamodule.html) -- provide a nice way to prepare the data
 2. 
 
+
+## Project Template
+[Repo](https://github.com/bhimrazy/lung-tumours-segmentation/tree/main)
+* how to use lightning
+* how to use hydra
+* how to use 
+
+
 ## Reference
 
 https://lightning.ai/docs/pytorch/stable/tutorials.html
