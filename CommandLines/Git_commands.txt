@@ -60,7 +60,23 @@ $ git push -u origin main
 
 
 # change start up directory 
-echo 'cd /c/Users' >> ~/.bashrc
+$ echo 'cd /c/Users' >> ~/.bashrc
 
 
 
+# to delete a branch locally
+$ git branch -d branch-name
+
+# to delete branch remotely
+$ git push origin -d branch-name
+
+# to list all branches
+$ git branch -a
+
+# switch branch
+$ git checkout branch-name
+
+# merge branchA to main
+$ git checkout main
+$ git merge branchA
+$ git push origin main
